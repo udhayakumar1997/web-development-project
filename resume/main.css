@@ -1,0 +1,107 @@
+body{
+    line-height: 1.2rem;
+    word-spacing: 3px;
+    animation: mymove 3s infinite;
+   
+}
+@keyframes mymove {
+    from {background-color: lightgray;}
+    to {background-color: blue;
+        background-color: rgb(9, 255, 0);
+        background-color: red;
+        background-color: orange;
+    }
+  }
+  @keyframes image {
+    from {
+        background-image: url("./professiontal\ photo.jpeg");
+        background-repeat: no-repeat;
+        background-size: 200px;
+        width: 200px;
+       
+    }
+    to {
+        background-image: url("./udhaya1.jpg");
+        background-repeat: no-repeat;
+        background-size: 200px;
+       
+    }
+  }
+
+h3{
+    color: brown;
+}
+
+h3:hover{
+    font-size: 50px;
+    width: 70%;
+    height: 50px;
+    padding-top: 20px;
+    
+    color: gold;
+    background-color: red;
+}
+#header{
+    margin-left: 13%;
+    margin-top: 3%;
+    text-align: left;
+}
+
+#header h1{
+    color:#990000;
+    
+}
+#header p{
+    font-size: large;
+}
+
+#header_img{
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    position: relative;
+    animation: image 5s infinite;
+
+}
+#header_img:hover{
+    border-radius: 0%;
+    width: 40%;
+    height: 80%;
+    border:gold 5px double;
+    
+    
+
+}
+
+dl dt{
+    color: #990000 ;
+    font-size: larger;
+    font-weight: bolder;
+}
+dl dt:hover{
+    font-size: 30px;
+    width: 70%;
+    height: 60px;
+    padding-top: 20px;
+    line-height: 30px;
+    
+    color: gold;
+    background-color: red;
+
+}
+dl dd{
+    font-weight:bold;
+}
+.udhaya:hover{
+    background-color: gold;
+    font-size: 20px;
+    width: 70%;
+}
+.rafi:hover{
+    height: 200px;
+    background-color: #F8F9D2;
+}
+.praveen:hover{
+    height: 223px;
+    background-color: #F8F9D2;
+}
